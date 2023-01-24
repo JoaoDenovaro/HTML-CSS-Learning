@@ -1,0 +1,1 @@
+form action e method são usados juntamente com o submit, para buscar (GET) ou criar (POST) em uma rota javascript (definida por um código javascript)

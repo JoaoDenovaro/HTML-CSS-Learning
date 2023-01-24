@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=320px">
+
+    <title>Título do documento</title>
+</head>
+<body>
+    <form action='/criar-ou-pegar-infos-de-usuario' method='POST/GET'>
+        <label for="numberpizza">Número de pizzas</label><br>
+        <input type="number" name="Número de pizzas" min="2" max="8" step="2" value="2"/> <br>
+
+        <label for="name">Nome</label><br>
+        <input type="text"/><br>
+
+        <label for="pass">Senha</label><br>
+        <input type="password"/><br>
+
+        <label for="email">Email</label><br>
+        <input type="email"/><br>
+
+        <label for="end">Endereço</label><br>
+        <textarea placeholder="Digite seu endereço" cols="50" rows="3"></textarea><br>
+
+        <input type="checkbox"/>
+        <input type="checkbox"/><br>
+
+        <legend>Borda:</legend>
+        <div>
+        <input type="radio" id="Sem" name="borda" checked>
+        <label for="borda">Sem catupiry</label>
+        </div>
+        <div>
+        <input type="radio" id="Com" name="borda">
+        <label for="borda">Com catupiry</label>
+        </div>
+
+        <label for="date">Data da entrega</label><br>
+        <input type="datetime-local"/><br>
+
+        <label for="file">Foto do seu doguinho (para inspiração):</label><br>
+        <input type="file" accept="jpeg"/><br>
+        
+        <label>Bebida:</label>
+        <select> 
+            <option name="bebida" value='coca'>Coca-Cola</option>
+            <option name="bebida" value='fanta'>Fanta Laranja</option>
+            <option name="bebida" value='guarana'>Guaraná</option>
+        </select>
+
+        <button type="button">Enviar</button>
+    </form>
+</body>
+</html>
