@@ -1,1 +1,5 @@
 form action e method são usados juntamente com o submit, para buscar (GET) ou criar (POST) em uma rota javascript (definida por um código javascript)
+
+INCREMENTOS PARA O SITE:
+- Fazer o cardápio com - e + para adicionar pizzas
+- Adicionar cálculo do total
