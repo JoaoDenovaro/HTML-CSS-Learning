@@ -1,0 +1,37 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navegacao li{
+    margin: 20px;
+}
+
+#navegacao {
+    display:flex;
+    font-size: 50px;
+    text-decoration: none;
+    list-style: none;
+    border-bottom: solid red 10px;
+    padding: 20px
+}
+
+#navegacao li:hover a {
+    font-weight: bold;
+    color:red;
+    text-decoration: none;
+}
+
+#navegacao a {
+    text-decoration: none;
+}
+
+#navegacao a:visited{
+    color:blue
+}
+
+#logo {
+    margin: 60px
+}

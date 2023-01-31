@@ -1,0 +1,14 @@
+button.hover {
+    color: white
+}
+
+p {
+    font-size: 60px;
+}
+p::first-line {
+    color: aqua
+}
+
+#nome:focus {
+    background-color:red
+}

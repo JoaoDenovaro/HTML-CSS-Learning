@@ -1,0 +1,33 @@
+table {
+    border:5px solid red;
+    margin-left: auto; 
+    margin-right: auto;
+    }
+
+.pizzaria {
+    background-color: rgb(253, 56, 56);
+    
+}
+
+#cardapio {
+    border: 7px solid rgb(168, 34, 34);
+    border-collapse: collapse;
+}
+
+td, th{
+    border: 7px solid rgb(168, 34, 34);
+    color:rgb(82, 0, 0)
+}
+
+legend {
+    color:rgb(82, 0, 0)
+}
+
+h4 + p {
+    color: white
+}
+
+h4, p {
+    text-align: center;
+}
+
