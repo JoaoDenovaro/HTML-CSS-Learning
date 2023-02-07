@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 table {
     border:5px solid red;
     margin-left: auto; 
@@ -23,11 +29,34 @@ legend {
     color:rgb(82, 0, 0)
 }
 
-h4 + p {
-    color: white
+#navegacao li{
+    padding: 20px;
 }
 
-h4, p {
-    text-align: center;
+#navegacao a {
+    color: white;
+    text-decoration: none;
 }
 
+#navegacao {
+    display:flex;
+    font-size: 50px;
+    text-decoration: none;
+    list-style: none;
+    /* border-bottom: solid red 10px; */
+    background-color: #de2939;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+}
+
+#navegacao li:hover a {
+    font-weight: bold;
+    color:red;
+    text-decoration: none;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
