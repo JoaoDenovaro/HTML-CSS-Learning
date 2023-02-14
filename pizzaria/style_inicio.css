@@ -37,6 +37,12 @@ nav ul{
     text-decoration: none;
 }
 
+.h3 a {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 a:visited{
     color:#007bad
 }
@@ -62,4 +68,8 @@ a:visited{
     padding: 10px;
     box-sizing: 5px;
     border-radius: 20%;
+}
+
+html {
+    scroll-behavior: smooth;
 }

@@ -15,7 +15,7 @@ table {
     
 }
 
-#cardapio {
+.cardapio {
     border: 7px solid rgb(168, 34, 34);
     border-collapse: collapse;
 }

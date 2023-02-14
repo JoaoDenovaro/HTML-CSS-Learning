@@ -1,0 +1,147 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navegacao li{
+    padding: 20px;
+}
+
+#navegacao a {
+    color: white;
+    text-decoration: none;
+}
+
+#navegacao {
+    display:flex;
+    font-size: 50px;
+    text-decoration: none;
+    list-style: none;
+    /* border-bottom: solid red 10px; */
+    background-color: #de2939;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+#navegacao li:hover a {
+    font-weight: bold;
+    color:red;
+    text-decoration: none;
+}
+
+#sobre{
+    color: white;
+    padding-top: 13rem;
+}
+
+.h3 a {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.parenteses {
+    margin-top: 0rem;
+}
+
+a:visited{
+    color:#007bad
+}
+
+#link{
+    color: #007bad;
+    margin-bottom: 600px;
+}
+
+#logo{
+    margin-top: 18rem;
+}
+
+#wpp{
+    position:fixed;
+    right: 50px;
+    bottom: 50px;
+    background-color: #4bc959;
+    padding: 10px;
+    box-sizing: 5px;
+    border-radius: 20%;
+}
+
+html {
+    scroll-behavior: smooth;
+    background-color: #007bad;
+}
+
+table {
+    border-radius: 20px;
+    border-top: 15rem;
+    border:5px solid red;
+    margin-left: auto; 
+    margin-right: auto;
+    background-color: #de2939;
+    
+    }
+
+.pizzaria {
+    background-color: rgb(253, 56, 56);
+    
+}
+
+.cardapio {
+    border: 7px solid rgb(168, 34, 34);
+    border-collapse: collapse;
+}
+
+td{
+    border: 7px solid rgb(168, 34, 34);
+    color:rgb(82, 0, 0)
+}
+
+th{
+    color: white;
+}
+
+.Titles{
+    border: 7px solid rgb(168, 34, 34);
+    color: white;
+    padding: 2rem;
+}
+
+legend {
+    color:rgb(82, 0, 0)
+}
+
+#tabela{
+    padding-top: 13rem;
+}
+
+#contato{
+    color: white;
+    margin-right: auto; 
+    margin-left: auto; 
+    width: 75%; 
+    background-color: #de2939;
+    border-radius: 20px;
+    align-content: space-between
+}
+
+#contatos{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#fim{
+    padding-top:13rem;
+}
+
+#vazio{
+    padding-bottom: 35rem;
+}

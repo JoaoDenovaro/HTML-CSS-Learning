@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style_inicio.css" type="text/css">
+    <title>Página inicial</title>
+</head>
+<body>
+    <nav>
+    <ul id="navegacao" class="nav">
+        <li> <a target="_self" href="#sobre">Sobre</a> </li>
+        <li> <a target="_self" href="#tabela">Cardápio</a> </li>
+        <li> <a target="_self" href="#fim">Contato</a> </li>
+    </ul>
+    </nav>
+
+    <header>
+        <p style="text-align:center">
+            <img id="logo" src="assets/Dominos_logo.png"  alt="logo" width="800rem" heigth="5800rem">
+        </p>
+        <div id="sobre">
+            <h1 style="text-align:center; font-size: 6rem; margin-left: 3rem; margin-right: 3rem;" class="titulo" id="inicial">
+                Olá, somos a Dominos, isso definitivamente não é um site falso.
+            </h1>
+            <h3 style="text-align:center; font-size: 2rem; margin-left: 3rem; margin-right: 3rem;" >
+                Filial da Dominos em Salvador Bahia, vendemos muita pizza sim adoramos pizza, fazer pizza vender pizza cheirar pizza haha.
+                Temos pizza de todos os sabores, cores, preços, pizza importada diretamente de Ipirá. Todas as nossas pizzas são cuidadas com muito carinho
+                e amor. É com essa seriedade que vemos a arte de fazer pizzaria. Pode gastar o seu dinheiro com a gente que somos muito confiáveis 
+                e isso aqui não é uma fraude e muito menos golpe
+            </h3>
+            <h5 style="text-align:center; font-size: 1.5rem; margin-left: 3rem; margin-right: 3rem;" class="parenteses">
+                (Reembolsos não são de responsabilidade dessa filial, para qualquer dúvida ou problema contactar vaise.fuder@yahoo.com)
+            </h3>
+        </div>
+    </header>
+
+    <aside>
+        <a href="https://wa.me/71991653114"><img src="assets/whatsapp-icone-1.png" alt="wpp" id="wpp" width="70" height="70"></a>
+    </aside>
+
+    <section id="tabela">
+        <table style="font-size:40px;" class="cardapio" id="cardapio">
+                    
+            <thead>
+                <tr>
+                    <th colspan="5"> Cardápio </th>
+                </tr>
+                <tr>
+                    <th> &nbsp; </th>
+                    <th> Sabor </th>
+                    <th> Valor </th>
+                    <th> Quantidade </th>
+                </tr>
+            </thead>    
+
+            <tbody>
+                <tr>
+                    <td> <img src="assets/calabresa.png" alt="calabresa" width="200" heigth="200"> </td>
+                    <td> Calabresa </td>
+                    <td> R$1220,00 </td>
+                    <td> <input name="calabresa" type="number" value="0">  </td>
+                </tr>
+                <tr>
+                    <td> <img src="assets/ruculaseila.png" alt="marguerita" width="200" heigth="200"> </td>
+                    <td> Marguerita </td>
+                    <td> R$1320,00 </td>
+                    <td> <input name="marguerita" type="number" value="0">  </td>
+                </tr>
+                <tr>
+                    <td> <img src="assets/camarao.png" alt="frango catupiry" width="200" heigth="200"> </td>
+                    <td> Frango Catupiry </td>
+                    <td> R$1800,00 </td>
+                    <td> <input name="catupiry" type="number" value="0">  </td>
+                </tr>
+                <tr>
+                    <td> <img src="assets/pepperoni.png" alt="pepperoni" width="200" heigth="200"> </td>
+                    <td> Pepperoni </td>
+                    <td> R$1600,00 </td>
+                    <td> <input name="catupiry" type="number" value="0">  </td>
+                </tr>
+                <tr>
+                    <td colspan="4" class="Titles"> Bebidas </td>
+                </tr>
+                <tr>
+                    <td> <img src="assets/cocalitro.png" alt="cocalitro" width="200" heigth="200"> </td>
+                    <td> Coca-cola (Litro) </td>
+                    <td> R$20,00 </td>
+                    <td> <input name="cocalitro" type="number" value="0">  </td>
+                </tr>
+                <tr>
+                    <td> <img src="assets/cocalata.png" alt="cocalata" width="200" heigth="200"> </td>
+                    <td> Coca-cola (lata) </td>
+                    <td> R$20,00 </td>
+                    <td> <input name="cocalata" type="number" value="0">  </td>
+                </tr>
+                <tr>
+                    <td> <img src="assets/capirinha.png" alt="caipirita" width="200" heigth="200"> </td>
+                    <td> Caipirinha </td>
+                    <td> R$10,00 </td>
+                    <td> <input name="caipirola" type="number" value="0">  </td>
+                </tr>
+
+                <tr>
+                    <td> <img src="assets/sucao.png" alt="cenora" width="200" heigth="200"> </td>
+                    <td> Suco de abóbora </td>
+                    <td> R$10,00 </td>
+                    <td> <input name="SUKODICENORA" type="number" value="0">  </td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td colspan="3"> Total: </td>
+                    <td></td>
+                </tr>
+                
+            </tfoot>
+               
+        </table>
+    </section>
+
+    <footer>
+        <section id="fim">
+            <div id="contato" >
+                <h1 style="font-size: 3rem; padding: 2rem;" id="entre" > Entre em contato!</h1>
+                <div id="contatos" style="display:flex;">
+                    <div>
+                        <h3 style="font-size: 2rem; margin: 4rem;">Instagram: @dominospizza <br>
+                            E-mail: dominos@pizza.com <br>
+                            Telegram: Pizzaria123
+                        </h3>
+                    </div>
+                    <div>
+                        <iframe style="margin: 4rem;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30177.285645546566!2d30.88508946608198!3d-19.012638901485808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1932ffddee0cef5b%3A0x65a44211800ac5db!2sChivhu%2C%20Zimb%C3%A1bue!5e0!3m2!1spt-BR!2sbr!4v1676406077248!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                </div>
+                    
+                </div>
+            </div>
+        </section>
+        
+
+        <div id="vazio">
+
+        </div>
+    </footer>
+
+
+
+</body>
+</html>
