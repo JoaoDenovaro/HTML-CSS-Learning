@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style_inicio.css" type="text/css">
     <title>Página inicial</title>
+    <script src="scripts.js"></script>
 </head>
 <body>
     <nav>
@@ -52,6 +53,7 @@
                     <th> Sabor </th>
                     <th> Valor </th>
                     <th> Quantidade </th>
+                    <th> Subtotal </th>
                 </tr>
             </thead>    
 
@@ -60,19 +62,40 @@
                     <td> <img src="assets/calabresa.png" alt="calabresa" width="200" heigth="200"> </td>
                     <td> Calabresa </td>
                     <td> R$1220,00 </td>
-                    <td> <input name="calabresa" type="number" value="0">  </td>
+                    <td>
+                        <button type="button" onclick="sub('val1', 1220, 'sub1'), total()"> - </button>
+                        <p id="val1"> 0 </p>
+                        <button type="button" onclick="add('val1', 1220, 'sub1'), total()"> + </button>
+                    </td>
+                    <td>
+                        <p id="sub1"> 0 </p>
+                    </td>
                 </tr>
                 <tr>
                     <td> <img src="assets/ruculaseila.png" alt="marguerita" width="200" heigth="200"> </td>
                     <td> Marguerita </td>
                     <td> R$1320,00 </td>
-                    <td> <input name="marguerita" type="number" value="0">  </td>
+                    <td>
+                        <button type="button" onclick="sub('val2', 1320, 'sub2'), total()"> - </button>
+                        <p id="val2"> 0 </p>
+                        <button type="button" onclick="add('val2', 1320, 'sub2'), total()"> + </button>
+                    </td>
+                    <td>
+                        <p id="sub2"> 0 </p>
+                    </td>
                 </tr>
                 <tr>
                     <td> <img src="assets/camarao.png" alt="frango catupiry" width="200" heigth="200"> </td>
                     <td> Frango Catupiry </td>
                     <td> R$1800,00 </td>
-                    <td> <input name="catupiry" type="number" value="0">  </td>
+                    <td>
+                        <button type="button" onclick="sub('val3', 1800, 'sub3'), total()"> - </button>
+                        <p id="val3"> 0 </p>
+                        <button type="button" onclick="add('val3', 1800, 'sub3'), total()"> + </button>
+                    </td>
+                    <td>
+                        <p id="sub3"> 0 </p>
+                    </td>
                 </tr>
                 <tr>
                     <td> <img src="assets/pepperoni.png" alt="pepperoni" width="200" heigth="200"> </td>
@@ -112,8 +135,12 @@
 
             <tfoot>
                 <tr>
-                    <td colspan="3"> Total: </td>
-                    <td></td>
+                    <td colspan="4"> Total: </td>
+                    <td>
+                        <p id="total">
+                        0
+                        </p>
+                    </td>
                 </tr>
                 
             </tfoot>
